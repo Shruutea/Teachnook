@@ -1,0 +1,111 @@
+body{
+    /* background-color: #E3CAA5; */
+    background: #6D6027;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #D3CBB8, #6D6027);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header{
+    position: fixed ;
+    display: block;
+    /* padding-left: 25%; */
+    font-size: 300%;
+    background-color: #AD8B73;
+    top: 0px;
+    position: fixed center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    /* background-color: #E3CAA5; */
+    padding-top: 30px;
+    font-size: 170%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding-left: 125px;
+}
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    background-color: #AD8B73;
+    bottom: 0px;
+    padding-bottom: -20px;
+}
+
+img{
+    
+    height: 400px;
+    width: 500px;
+    border-spacing: 2cm;
+    right: 50%;
+    bottom: 100%;
+    padding-left: 125px;
+    /* padding-bottom: 45px; */
+
+    
+}
+
+p{
+    position: sticky;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 140%;
+     margin: 90px 0;
+        padding: 10px;
+        /* border: 1px solid #999;  */
+        margin-left: 10px;
+        max-width: 700px; 
+       padding-left: -100px;
+}
+
+/* Grid Styling  */
+#a{grid-area:a;}
+#b{grid-area:b ;}
+#b1{grid-area:b1;}
+#c{grid-area:c ;}
+#d{grid-area:d ;}
+#d1{grid-area:d1 ;}
+#e{grid-area:e ;}
+#f{grid-area:f ;}
+#f1{grid-area:f1 ;}
+#g{grid-area:g ;}
+#h{grid-area:h ;}
+#h1{grid-area:h1 ;}
+#i{grid-area:i ;}
+#j{grid-area:j ;}
+#j1{grid-area:j1 ;}
+#k{grid-area:k ;}
+#l{grid-area:l ;}
+#l1{grid-area:l1 ;}
+#m{grid-area:m ;}
+#n{grid-area:n ;}
+#n1{grid-area:n1 ;}
+#o{grid-area:o ;}
+#p{grid-area:p ;}
+#p1{grid-area:p1 ;}
+#q{grid-area:q ;}
+#r{grid-area:r ;}
+#r1{grid-area:r1 ;}
+#s{grid-area:s ;}
+#t{grid-area:t ;}
+#t1{grid-area:t1 ;}
+
+.maindiv{
+    display: grid;
+    grid-template-areas: 
+    "a a a a " "b b b1 b1"
+    "c c c c" "d d d1 d1"
+    "e e e e" "f f f1 f1" 
+    "g g g g " "h h h1 h1"
+    "i i i i " "j j j1 j1"
+    "k k k k " "l l l1 l1"
+    "m m m m" "n n n1 n1"
+    "o o o o " "p p p1 p1"
+    "q q q q " "r r r1 r1"
+    "s s s s" "t t t1 t1" ;
+
+    grid-column-gap: 0px;
+}
+
